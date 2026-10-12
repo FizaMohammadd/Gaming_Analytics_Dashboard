@@ -1,6 +1,10 @@
-# Gaming Analytics Dashboard Using Excel
+# 🎮 Gaming Analytics Dashboard Using Excel
 
-## Project Overview
+---
+
+**💡 Project Focus:** Excel-based data analysis, gameplay engagement, transaction trends, and dashboard reporting.
+
+## 📌 Project Overview
 
 Gaming platforms generate data about player activity, gameplay sessions, and in-game purchases. Analyzing this data can help businesses understand player engagement, compare platform performance, monitor transactions, and identify activity that may need further investigation.
 
@@ -8,7 +12,7 @@ In this project, I used **Microsoft Excel** to analyze gameplay and transaction 
 
 The main goal was to make the data easier to understand and help answer business questions through visual analysis.
 
-## Business Objectives
+## 🎯 Business Objectives
 
 - Analyze gameplay activity across regions and over time.
 - Compare session activity across Mobile, PC, and Console.
@@ -17,7 +21,7 @@ The main goal was to make the data easier to understand and help answer business
 - Review sessions flagged as potentially suspicious.
 - Present the findings through an Excel dashboard.
 
-## Dataset
+## 📂 Dataset
 
 **Dataset:** [Indian Gaming Platform Data](https://docs.google.com/spreadsheets/d/1xi2lii3oHm7wkwm9a3x9mE9yDTL_hqAF/edit?usp=sharing)
 
@@ -41,29 +45,29 @@ The dataset contains 500 gameplay-session records, with fields covering players,
 | Level Reached | Level reached during the session |
 | Is Suspicious | Flag indicating potentially irregular activity |
 
-## Project Workflow
+## 🔄 Project Workflow
 
-### 1. Data Understanding
+### 1️⃣ Data Understanding
 
 Reviewed the dataset and identified the fields relevant to gameplay activity, transactions, player categories, dates, and session outcomes.
 
-### 2. Data Preparation
+### 2️⃣ Data Preparation
 
 Prepared the data for analysis by reviewing session identifiers, date and numeric fields, category values, and the available session and suspicious-activity flags.
 
-### 3. Data Transformation
+### 3️⃣ Data Transformation
 
 Worked with date-related fields and analysis columns, including Year-Month, ARPU, SuccessFlag, and Suspicious Flag, to support the required summaries.
 
-### 4. Data Analysis
+### 4️⃣ Data Analysis
 
 Used PivotTable summaries to compare gameplay volume, purchase activity, session outcomes, and suspicious-session flags across relevant categories.
 
-### 5. Dashboard Development
+### 5️⃣ Dashboard Development
 
 Created an Excel dashboard with charts that bring the main findings together and make comparisons easier to understand.
 
-## Dashboard Highlights
+## 📊 Dashboard Highlights
 
 The dashboard contains five visualizations:
 
@@ -81,7 +85,7 @@ The workbook is organized into three sheets:
 - **Pivot Table:** Summaries used for analysis.
 - **Dashboard:** Visual presentation of the key comparisons.
 
-## Tools & Techniques
+## 🛠️ Tools & Techniques
 
 - Microsoft Excel
 - Data preparation and transformation
@@ -89,7 +93,7 @@ The workbook is organized into three sheets:
 - Charts and dashboard design
 - KPI and category-based analysis
 
-## How to Use
+## 🚀 How to Use
 
 1. Clone or download this repository.
 2. Open `Gaming_Dashboard.xlsx` in Microsoft Excel.
@@ -97,13 +101,13 @@ The workbook is organized into three sheets:
 4. Check the **Pivot Table** sheet to review the supporting calculations.
 5. Explore the **Dataset** sheet to understand the fields used in the analysis.
 
-## Limitations
+## ⚠️ Limitations
 
 - The analysis is based on 500 records and should not be generalized to the entire Indian gaming industry.
 - A suspicious-activity flag indicates a record for further review; it does not independently prove fraud or bot activity.
 - The project examines gameplay and transaction patterns. Player retention or fraud detection would require additional definitions and validation.
 
-## Project File
+## 📁 Project File
 
 `Gaming_Dashboard.xlsx` — Excel workbook containing the dataset, PivotTable summaries, and dashboard.
 
